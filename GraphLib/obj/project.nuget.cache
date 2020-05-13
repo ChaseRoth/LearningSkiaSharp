@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "SF+mEm4PordJKP4q74MTeHDgRzXClgs2eM5P1UMyra5YGc5Q76ZayLjRITVAo5eVDYnemWzq351ohrbErIOh9A==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\LearningSkiaSharp\\GraphLib\\GraphLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\skiasharp\\1.68.2.1\\skiasharp.1.68.2.1.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\skiasharp.views.forms\\1.68.2.1\\skiasharp.views.forms.1.68.2.1.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.forms\\4.4.0.991757\\xamarin.forms.4.4.0.991757.nupkg.sha512"
+  ],
+  "logs": []
+}

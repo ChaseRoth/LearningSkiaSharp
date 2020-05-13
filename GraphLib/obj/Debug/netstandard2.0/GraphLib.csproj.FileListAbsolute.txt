@@ -1,0 +1,11 @@
+C:\Dev\LearningSkiaSharp\GraphLib\bin\Debug\netstandard2.0\GraphLib.deps.json
+C:\Dev\LearningSkiaSharp\GraphLib\bin\Debug\netstandard2.0\GraphLib.dll
+C:\Dev\LearningSkiaSharp\GraphLib\bin\Debug\netstandard2.0\GraphLib.pdb
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\MyGraph.xaml.g.cs
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.csproj.CoreCompileInputs.cache
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.AssemblyInfoInputs.cache
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.AssemblyInfo.cs
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.dll
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.pdb
+C:\Dev\LearningSkiaSharp\GraphLib\obj\Debug\netstandard2.0\GraphLib.csprojAssemblyReference.cache

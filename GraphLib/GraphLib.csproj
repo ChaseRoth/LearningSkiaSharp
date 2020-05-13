@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="1.68.2.1" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="MyGraph.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

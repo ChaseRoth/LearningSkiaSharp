@@ -1,0 +1,1 @@
+C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp.UWP\LearningSkiaSharp.UWP.csproj;x86

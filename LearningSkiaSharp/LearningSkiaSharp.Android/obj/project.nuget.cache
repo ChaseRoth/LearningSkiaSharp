@@ -1,0 +1,83 @@
+{
+  "version": 2,
+  "dgSpecHash": "vltjzkYpelSePoiBSL115Pcp4F8f4Oniax171nrRUr16CNE/Ql892BuKn4+NkwDTXrbcdgKdF+iqL6FE/RcjzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\LearningSkiaSharp\\LearningSkiaSharp\\LearningSkiaSharp.Android\\LearningSkiaSharp.Android.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\skiasharp\\1.68.2.1\\skiasharp.1.68.2.1.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\skiasharp.views\\1.68.2.1\\skiasharp.views.1.68.2.1.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\skiasharp.views.forms\\1.68.2.1\\skiasharp.views.forms.1.68.2.1.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.lifecycle.livedata\\1.1.1.3\\xamarin.android.arch.lifecycle.livedata.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.lifecycle.livedata.core\\1.1.1.3\\xamarin.android.arch.lifecycle.livedata.core.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.lifecycle.runtime\\1.1.1.3\\xamarin.android.arch.lifecycle.runtime.1.1.1.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.arch.lifecycle.viewmodel\\1.1.1.3\\xamarin.android.arch.lifecycle.viewmodel.1.1.1.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.animated.vector.drawable\\28.0.0.3\\xamarin.android.support.animated.vector.drawable.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.annotations\\28.0.0.3\\xamarin.android.support.annotations.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.asynclayoutinflater\\28.0.0.3\\xamarin.android.support.asynclayoutinflater.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.collections\\28.0.0.3\\xamarin.android.support.collections.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.compat\\28.0.0.3\\xamarin.android.support.compat.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.coordinaterlayout\\28.0.0.3\\xamarin.android.support.coordinaterlayout.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.core.ui\\28.0.0.3\\xamarin.android.support.core.ui.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.core.utils\\28.0.0.3\\xamarin.android.support.core.utils.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.cursoradapter\\28.0.0.3\\xamarin.android.support.cursoradapter.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.customtabs\\28.0.0.3\\xamarin.android.support.customtabs.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.customview\\28.0.0.3\\xamarin.android.support.customview.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.design\\28.0.0.3\\xamarin.android.support.design.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.documentfile\\28.0.0.3\\xamarin.android.support.documentfile.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.drawerlayout\\28.0.0.3\\xamarin.android.support.drawerlayout.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.fragment\\28.0.0.3\\xamarin.android.support.fragment.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.interpolator\\28.0.0.3\\xamarin.android.support.interpolator.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.loader\\28.0.0.3\\xamarin.android.support.loader.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.localbroadcastmanager\\28.0.0.3\\xamarin.android.support.localbroadcastmanager.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.media.compat\\28.0.0.3\\xamarin.android.support.media.compat.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.print\\28.0.0.3\\xamarin.android.support.print.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.slidingpanelayout\\28.0.0.3\\xamarin.android.support.slidingpanelayout.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.swiperefreshlayout\\28.0.0.3\\xamarin.android.support.swiperefreshlayout.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.transition\\28.0.0.3\\xamarin.android.support.transition.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.v4\\28.0.0.3\\xamarin.android.support.v4.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.v7.appcompat\\28.0.0.3\\xamarin.android.support.v7.appcompat.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.v7.cardview\\28.0.0.3\\xamarin.android.support.v7.cardview.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.v7.recyclerview\\28.0.0.3\\xamarin.android.support.v7.recyclerview.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
+    "C:\\Users\\Chase Roth\\.nuget\\packages\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.3.1 to 1.3.1. Reference the package directly from the project to select a different version. \r\n LearningSkiaSharp.Android -> LearningSkiaSharp -> Xamarin.Essentials (>= 1.5.3.1) \r\n LearningSkiaSharp.Android -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.6.0.726 to 4.4.0.991265. Reference the package directly from the project to select a different version. \r\n LearningSkiaSharp.Android -> LearningSkiaSharp -> Xamarin.Forms (>= 4.6.0.726) \r\n LearningSkiaSharp.Android -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.4.0.991757 to 4.4.0.991265. Reference the package directly from the project to select a different version. \r\n LearningSkiaSharp.Android -> GraphLib -> SkiaSharp.Views.Forms 1.68.2.1 -> Xamarin.Forms (>= 4.4.0.991757) \r\n LearningSkiaSharp.Android -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
+}

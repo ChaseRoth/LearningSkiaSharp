@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"       
+             xmlns:local_master_items="clr-namespace:LearningSkiaSharp.Pages.Nav"
+             xmlns:local_pages="clr-namespace:LearningSkiaSharp.Pages" xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             mc:Ignorable="d"
+             x:Class="LearningSkiaSharp.Pages.Nav.MasterPage"
+             Title="MasterPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="NavLabelStyle" TargetType="Label">
+                <Setter Property="Margin" Value="15,0,0,0"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Text" Value="{Binding Title}"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="Padding" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <skia:SKCanvasView x:Name="SKCanvas"
+                           PaintSurface="SKCanvas_PaintSurface"/>
+        
+        <ListView x:Name="MasterPageNavListView" 
+                  x:FieldModifier="public" 
+                  Margin="0,100,0,0"
+                  HasUnevenRows="True">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local_master_items:MasterPageItem}">
+                    <local_master_items:MasterPageItem Title="Circle" TargetType="{x:Type local_pages:CirclePage}"/>
+                    <local_master_items:MasterPageItem Title="Rectangle / Square" TargetType="{x:Type local_pages:SquarePage}"/>
+                    <local_master_items:MasterPageItem Title="Lines and StokeCaps" TargetType="{x:Type local_pages:LinesAndStokeCapsPage}"/>
+                    <local_master_items:MasterPageItem Title="Paths and Contours" TargetType="{x:Type local_pages:PathsAndContoursPage}"/>
+                    <local_master_items:MasterPageItem Title="Path Fill Types" TargetType="{x:Type local_pages:PathFillTypesPage}"/>
+                    <local_master_items:MasterPageItem Title="Dots And Dashes" TargetType="{x:Type local_pages:DotsAndDashesPage}"/>
+                    <local_master_items:MasterPageItem Title="Animated Spiral" TargetType="{x:Type local_pages:AnimatedSpiralPage}"/>
+                    <local_master_items:MasterPageItem Title="Linear Gradient Page" TargetType="{x:Type local_pages:LinearGradientPage}"/>
+                    <local_master_items:MasterPageItem Title="Linear Clock Page" TargetType="{x:Type local_pages:ClockPage}"/>
+                    <local_master_items:MasterPageItem Title="Graph Page" TargetType="{x:Type local_pages:GraphPage}"/>
+                </x:Array>
+            </ListView.ItemsSource>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Cell for the menu items -->
+                    <ViewCell>
+                        <Label Style="{StaticResource NavLabelStyle}"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

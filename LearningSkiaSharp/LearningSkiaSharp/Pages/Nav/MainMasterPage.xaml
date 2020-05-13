@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:local="clr-namespace:LearningSkiaSharp.Pages"
+                  xmlns:local_nav="clr-namespace:LearningSkiaSharp.Pages.Nav"
+                  mc:Ignorable="d"
+                  x:Class="LearningSkiaSharp.Pages.Nav.MainMasterPage">
+
+    <!-- The page that will make up the content inside the drawer -->
+    <MasterDetailPage.Master>
+        <local_nav:MasterPage x:Name="masterPage" x:FieldModifier="public"/>
+    </MasterDetailPage.Master>
+    
+    <!-- Our MasterDetailPage -->
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:GraphPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+
+</MasterDetailPage>
