@@ -42,6 +42,7 @@
                     <local_master_items:MasterPageItem Title="Linear Gradient Page" TargetType="{x:Type local_pages:LinearGradientPage}"/>
                     <local_master_items:MasterPageItem Title="Linear Clock Page" TargetType="{x:Type local_pages:ClockPage}"/>
                     <local_master_items:MasterPageItem Title="Graph Page" TargetType="{x:Type local_pages:GraphPage}"/>
+                    <local_master_items:MasterPageItem Title="Horizontal Slider Page" TargetType="{x:Type local_pages:HorizontalSliderPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
 

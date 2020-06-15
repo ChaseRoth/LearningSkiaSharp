@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms" 
+             xmlns:local="clr-namespace:LearningSkiaSharp.TouchTracking"
+             xmlns:vm="clr-namespace:LearningSkiaSharp.ViewModels"
+             mc:Ignorable="d"
+             x:Class="LearningSkiaSharp.Pages.HorizontalSliderPage">
+
+    <ContentPage.BindingContext>
+        <vm:HorizontalSliderVM/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout>
+
+        <Label Text="Percentage"/>
+        <Label Text="{Binding Percent}"/>
+
+        <Label Text="Slider Thumb X"/>
+        <Label Text="{Binding SliderThumbX}"/>
+
+        <Label Text="Slider Thumb X Pixels"/>
+        <Label Text="{Binding SliderThumbXPixel}"/>
+        
+        <Grid x:Name="SliderGrid" WidthRequest="300" HeightRequest="150" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" BackgroundColor="Red">
+            <skia:SKCanvasView x:Name="CustomSlider" PaintSurface="CustomSlider_PaintSurface"/>
+            <Grid.Effects>
+                <local:TouchEffect Capture="True" TouchAction="TouchEffect_TouchAction" />
+            </Grid.Effects>
+        </Grid>
+    </StackLayout>
+   
+    
+</ContentPage>

@@ -1,4 +1,5 @@
 ﻿using SkiaSharp;
+using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -25,7 +26,7 @@ namespace LearningSkiaSharp.Pages.Nav
                 paint.Shader = SKShader.CreateLinearGradient(
                                     new SKPoint(0, 0),
                                     new SKPoint(e.Info.Width, e.Info.Height),                                    
-                                    new SKColor[] { SKColor.Parse(((Color)App.Current.Resources[App.LIGHT_PRIMARY_KEY]).ToHex()), SKColor.Parse(((Color)App.Current.Resources[App.DARK_PRIMARY_KEY]).ToHex()) },
+                                    new SKColor[] { ((Color)App.Current.Resources[App.LIGHT_PRIMARY_KEY]).ToSKColor(), ((Color)App.Current.Resources[App.DARK_PRIMARY_KEY]).ToSKColor() },
                                     null,
                                     SKShaderTileMode.Repeat);
 

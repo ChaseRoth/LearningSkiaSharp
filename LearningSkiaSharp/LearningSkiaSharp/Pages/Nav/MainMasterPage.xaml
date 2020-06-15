@@ -17,7 +17,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:GraphPage/>
+                <local:HorizontalSliderPage/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

@@ -9,6 +9,10 @@
         <ResourceDictionary>
             <Color x:Key="DarkPrimary">#04131e</Color>
             <Color x:Key="LightPrimary">#072f50</Color>
+            
+            <!-- Slider Colors -->
+            <Color x:Key="CoolSlider">#24d292</Color>
+            <Color x:Key="HotSlider">#d558c8</Color>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -26,3 +26,4 @@ C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp\obj\Debug\netstanda
 C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp\bin\Debug\netstandard2.0\GraphLib.dll
 C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp\bin\Debug\netstandard2.0\GraphLib.pdb
 C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp\obj\Debug\netstandard2.0\LearningSkiaSharp.csproj.CopyComplete
+C:\Dev\LearningSkiaSharp\LearningSkiaSharp\LearningSkiaSharp\obj\Debug\netstandard2.0\Pages\HorizontalSliderPage.xaml.g.cs
